@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex_chenxu - 个人主页</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Arial, sans-serif;
+        }
+
+        body {
+            background: #f0f8ff;
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .header {
+            text-align: center;
+            padding: 40px 0;
+            background: linear-gradient(135deg, #4a90e2, #63b4ff);
+            color: white;
+            border-radius: 15px;
+            margin-bottom: 30px;
+        }
+
+        .avatar {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 5px solid white;
+            margin-bottom: 20px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .school {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        .content-section {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #4a90e2;
+            margin-bottom: 20px;
+            border-left: 5px solid #4a90e2;
+            padding-left: 15px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: #e3f2fd;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+        }
+
+        .awards-list {
+            list-style: none;
+        }
+
+        .award-item {
+            padding: 15px;
+            background: #f8f9fa;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fa-trophy {
+            color: #ffd700;
+            font-size: 1.2em;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            
+            h1 {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <img src="https://cdn.luogu.com.cn/upload/usericon/1403784.png" alt="头像" class="avatar">
+            <h1>Alex_chenxu</h1>
+            <p class="school">福州金山小学</p>
+        </header>
+
+        <section class="content-section">
+            <h2>关于我</h2>
+            <p>🌟 性格活泼开朗，热爱学习与探索</p>
+            <p>📚 擅长科目：数学 | 英语 | 信息技术</p>
+            <p>💻 编程技能：C++ 开发者</p>
+            <p>🚀 梦想：成为一名优秀的程序员</p>
+        </section>
+
+        <section class="content-section">
+            <h2>技能标签</h2>
+            <div class="skills">
+                <span class="skill-tag">数学建模</span>
+                <span class="skill-tag">英语演讲</span>
+                <span class="skill-tag">C++编程</span>
+                <span class="skill-tag">算法设计</span>
+            </div>
+        </section>
+
+        <section class="content-section">
+            <h2>获奖荣誉</h2>
+            <ul class="awards-list">
+                <li class="award-item">
+                    <i class="fas fa-trophy"></i>
+                    2024年"城市智驾"二等奖
+                </li>
+                <li class="award-item">
+                    <i class="fas fa-trophy"></i>
+                    2024年CSP-J三等奖
+                </li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
